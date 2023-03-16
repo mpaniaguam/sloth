@@ -118,8 +118,13 @@
         register_post_type('artistas', $args);
     }
     add_action('init', 'artistas');
+ 
+    function anadirCustom_producto(){
+        if (function_exists('get_field')){
+            echo "<p><strong> Informacion extra: </strong>". get_field('informacion_extra')."</p>";
+        }
 
-    function hooks-ticket(){
-        
     }
+    add_action( 'woocommerce_single_product_summary', 'anadirCustom_producto', 15);
+
 ?>

@@ -34,17 +34,18 @@ if ( post_password_required() ) {
 <div id="product-<?php the_ID(); ?>" <?php wc_product_class( '', $product ); ?>>
 
 	<?php
-	/**
-	 * Hook: woocommerce_before_single_product_summary.
-	 *
-	 * @hooked woocommerce_show_product_sale_flash - 10
-	 * @hooked woocommerce_show_product_images - 20
-	 */
+		 
+		
+		$params = generate_get_the_title_parameters();
+
+		the_title( $params['before'], $params['after'] );  
+		echo "<br>" ;
 	do_action( 'woocommerce_before_single_product_summary' );
 	?>
 
 	<div class="summary entry-summary">
 		<?php
+ 
 		/**
 		 * Hook: woocommerce_single_product_summary.
 		 *
@@ -57,6 +58,7 @@ if ( post_password_required() ) {
 		 * @hooked woocommerce_template_single_sharing - 50
 		 * @hooked WC_Structured_Data::generate_product_data() - 60
 		 */
+		remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_title', 5); 
 		do_action( 'woocommerce_single_product_summary' );
 		?>
 	</div>
@@ -73,4 +75,4 @@ if ( post_password_required() ) {
 	?>
 </div>
 
-<?php do_action( 'woocommerce_after_single_product' ); ?>
+<?php do_action( 'woocommerce_after_single_product' ); ?>  

@@ -1,0 +1,50 @@
+2023-03-16T18:03:20+00:00 CRITICAL syntax error, unexpected token "-", expecting "(" en C:\xampp\htdocs\sloth\wp-content\themes\temasloth\functions.php en la línea 122
+
+2023-03-16T18:03:33+00:00 CRITICAL syntax error, unexpected token "-", expecting "(" en C:\xampp\htdocs\sloth\wp-content\themes\temasloth\functions.php en la línea 122
+
+2023-03-16T20:06:16+00:00 CRITICAL syntax error, unexpected identifier "get_footer" en C:\xampp\htdocs\sloth\wp-content\plugins\woocommerce\templates\archive-product.php en la línea 106
+
+2023-03-16T20:06:27+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\sloth\wp-content\plugins\woocommerce\templates\archive-product.php en la línea 107
+
+2023-03-16T20:37:26+00:00 CRITICAL Uncaught Error: Undefined constant "acf_producto" in C:\xampp\htdocs\sloth\wp-content\themes\temasloth\functions.php:128
+Stack trace:
+#0 C:\xampp\htdocs\sloth\wp-settings.php(585): include()
+#1 C:\xampp\htdocs\sloth\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sloth\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sloth\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sloth\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown en C:\xampp\htdocs\sloth\wp-content\themes\temasloth\functions.php en la línea 128
+
+2023-03-16T20:37:49+00:00 CRITICAL Uncaught Error: Undefined constant "informacion_adicional" in C:\xampp\htdocs\sloth\wp-content\themes\temasloth\functions.php:124
+Stack trace:
+#0 C:\xampp\htdocs\sloth\wp-includes\class-wp-hook.php(308): acf_producto('')
+#1 C:\xampp\htdocs\sloth\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sloth\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sloth\wp-content\plugins\woocommerce\templates\content-single-product.php(61): do_action('woocommerce_sin...')
+#4 C:\xampp\htdocs\sloth\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sloth\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\sloth\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 C:\xampp\htdocs\sloth\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\sloth\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\sloth\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown en C:\xampp\htdocs\sloth\wp-content\themes\temasloth\functions.php en la línea 124
+
+2023-03-16T20:38:54+00:00 CRITICAL Uncaught Error: Undefined constant "informacion_extra" in C:\xampp\htdocs\sloth\wp-content\themes\temasloth\functions.php:124
+Stack trace:
+#0 C:\xampp\htdocs\sloth\wp-includes\class-wp-hook.php(308): acf_producto('')
+#1 C:\xampp\htdocs\sloth\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sloth\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sloth\wp-content\plugins\woocommerce\templates\content-single-product.php(61): do_action('woocommerce_sin...')
+#4 C:\xampp\htdocs\sloth\wp-includes\template.php(785): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sloth\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\sloth\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 C:\xampp\htdocs\sloth\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\sloth\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\sloth\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown en C:\xampp\htdocs\sloth\wp-content\themes\temasloth\functions.php en la línea 124
+
+2023-03-16T20:50:33+00:00 CRITICAL syntax error, unexpected identifier "do_action", expecting "," or ";" en C:\xampp\htdocs\sloth\wp-content\plugins\woocommerce\templates\content-single-product.php en la línea 43
+
