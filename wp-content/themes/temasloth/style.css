@@ -1,0 +1,24 @@
+/*
+Theme Name: TemaSloth 
+Author: Michelle
+Version: 1.0
+Template: generatepress
+*/
+
+#contenedor-festivales{
+    clear:both;
+    float:left;
+    padding:25px;
+    margin:25px 0;
+    width: 100%;
+    background: #e2e2e2;
+    
+}
+
+.boton-ver{
+    padding: 20px;
+    background: #424242;
+    color: #cfcbcb;
+    width: auto;
+}
+   
